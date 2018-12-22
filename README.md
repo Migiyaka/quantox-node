@@ -17,7 +17,7 @@ to create and seed the initial database
 ## SMTP setup
 Setup the SMTP server info in constants/mailer.const.json to be able to send mails on user registration
 
-## Run the client
+## Build the client
 For the production build run
 
 ```
@@ -30,7 +30,7 @@ and the development version is on
 npm run client-dev
 ```
 
-## Run the server
+## Build the server
 Similarly the server is run by
 
 ```
