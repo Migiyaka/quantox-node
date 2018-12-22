@@ -46,6 +46,4 @@ npm run server-dev
 for the development version
 
 ## Run the app
-```
 Go to http://localhost:3000 for the production version or http://localhost:8080 for the development version
-```
