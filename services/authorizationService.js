@@ -67,7 +67,7 @@ module.exports = {
         try {
             await this.sendRegisteredUserEmail(email, createdUser.id);
         } catch (err) {
-            throw err;
+            throw new Error('User is created, but activation email couldn\'t be sent.');
         }
 
         return Promise.resolve();
@@ -82,7 +82,8 @@ module.exports = {
 
             const title = 'Activate your new profile on Quantox Node Test!';
             const url = `http://localhost:3000/api/authorization/activate/${token}`;
-            const html = `Welcome to Quantox Node Test!<br><br>Please click <a href="${url}">here</a> to active your profile`;
+            const html = `Welcome to Quantox Node Test!<br><br>` +
+                `Please click <a href="${url}">here</a> to active your profile`;
 
             await mailService.sendMail(to, title, html);
         } catch (err) {
