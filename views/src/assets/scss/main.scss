@@ -1,0 +1,25 @@
+@import '~bulma/bulma.sass';
+
+.add-ticket, .add-status {
+    margin-bottom: 1.5rem;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+.table {
+    th, td {
+        vertical-align: middle;
+    }
+
+    .actions {
+        .button {
+            font-size: 13px;
+
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+        }
+    }
+}

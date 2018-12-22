@@ -1,0 +1,18 @@
+{
+    "development": {
+        "database": "quantox-node",
+        "username": "postgres",
+        "password": "postgres",
+        "host": "localhost",
+        "port": 5432,
+        "dialect": "postgres"
+    },
+    "production": {
+        "database": "quantox-node",
+        "username": "postgres",
+        "password": "postgres",
+        "host": "localhost",
+        "port": 5432,
+        "dialect": "postgres"
+    }
+}

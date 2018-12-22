@@ -1,0 +1,11 @@
+[
+    {
+        "firstName": "System",
+        "lastName": "Admin",
+        "username": "admin",
+        "password": "123123123",
+        "email": "admin@quantox.com",
+        "role": "admin",
+        "active": true
+    }
+]

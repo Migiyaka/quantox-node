@@ -1,0 +1,4 @@
+{
+    "loginJwtSecret": "quantoxTechNodeProject",
+    "activationJwtSecret": "HungryHungryHippo"
+}

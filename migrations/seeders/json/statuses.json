@@ -1,0 +1,17 @@
+[
+    {
+        "name": "pending",
+        "text": "Pending",
+        "editable": false
+    },
+    {
+        "name": "in_progress",
+        "text": "In Progress",
+        "editable": false
+    },
+    {
+        "name": "done",
+        "text": "Done",
+        "editable": false
+    }
+]
